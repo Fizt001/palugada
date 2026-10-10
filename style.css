@@ -1814,6 +1814,69 @@ ul { list-style: none; }
   .stat-label { font-size: 0.7rem; }
 
   .form-row { grid-template-columns: 1fr; }
+
+  /* 3 Perk Cards in 1 Row on Mobile */
+  .daftar-perks {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    width: 100%;
+    margin-bottom: 24px;
+  }
+  .perk-item {
+    flex: 1 1 33.33%;
+    width: 33.33%;
+    min-width: 0;
+    padding: 12px 6px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 4px;
+    box-sizing: border-box;
+  }
+  .perk-icon {
+    font-size: 1.35rem;
+    margin-bottom: 2px;
+  }
+  .perk-item div {
+    align-items: center;
+    text-align: center;
+  }
+  .perk-item strong {
+    font-size: 0.78rem;
+    line-height: 1.25;
+    margin-bottom: 2px;
+  }
+  .perk-item span {
+    font-size: 0.68rem;
+    line-height: 1.2;
+    color: var(--neutral-500);
+  }
+
+  /* WhatsApp & Email 50-50 Side-by-Side on Mobile */
+  .contact-badges {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+  }
+  .contact-badge {
+    flex: 1 1 50%;
+    width: 50%;
+    min-width: 0;
+    padding: 14px 8px;
+    justify-content: center;
+    text-align: center;
+    white-space: nowrap;
+    box-sizing: border-box;
+    font-size: 0.85rem;
+  }
+  .contact-badge svg {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+  }
+
   .footer-grid { grid-template-columns: 1fr; gap: 24px; }
   .footer-bottom { flex-direction: column; gap: 8px; text-align: center; }
   .floating-wa-label { display: none; }
