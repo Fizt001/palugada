@@ -1983,3 +1983,270 @@ ul { list-style: none; }
   .logo-palugada { font-size: 0.95rem; }
   .logo-sub { font-size: 0.65rem; }
 }
+
+/* ==========================================
+   SPECIAL STOREONLINE.BIZ.ID EKATALOG SECTION
+   ========================================== */
+.ekatalog-banner-section {
+  padding: 60px 0;
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.05) 0%, rgba(16, 185, 129, 0.05) 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.ekatalog-card {
+  background: var(--bg-card);
+  border: 1.5px solid rgba(14, 165, 233, 0.25);
+  border-radius: var(--radius-2xl);
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 36px;
+  align-items: center;
+  box-shadow: var(--shadow-xl);
+  position: relative;
+  overflow: hidden;
+}
+
+.ekatalog-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: linear-gradient(90deg, #0ea5e9, #10b981);
+}
+
+.ekatalog-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  background: rgba(14, 165, 233, 0.1);
+  color: #0ea5e9;
+  border-radius: 20px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  border: 1px solid rgba(14, 165, 233, 0.2);
+}
+
+.ekatalog-title {
+  font-size: 1.85rem;
+  font-weight: 800;
+  line-height: 1.25;
+  color: var(--text-primary);
+  margin-bottom: 14px;
+}
+
+.ekatalog-desc {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.highlight-subdomain {
+  color: #0ea5e9;
+  background: rgba(14, 165, 233, 0.1);
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-family: monospace;
+  font-size: 0.9rem;
+}
+
+.ekatalog-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.ekatalog-feat-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.ekatalog-feat-item svg {
+  color: #10b981;
+  flex-shrink: 0;
+}
+
+.ekatalog-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.ekatalog-btn {
+  background: linear-gradient(135deg, #0ea5e9, #0284c7);
+  box-shadow: 0 8px 20px rgba(14, 165, 233, 0.3);
+}
+
+.ekatalog-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(14, 165, 233, 0.4);
+}
+
+/* Visual Mockup Box */
+.ekatalog-visual {
+  position: relative;
+}
+
+.store-preview-badge {
+  position: absolute;
+  top: -12px;
+  right: 16px;
+  background: #10b981;
+  color: #fff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  z-index: 2;
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+.dot-online {
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  border-radius: 50%;
+  animation: pulse 1.5s infinite;
+}
+
+.store-preview-box {
+  background: #0f172a;
+  border: 1px solid #1e293b;
+  border-radius: 16px;
+  padding: 16px;
+  color: #fff;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.store-url-bar {
+  background: #1e293b;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-family: monospace;
+  margin-bottom: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.url-protocol { color: #64748b; }
+.url-subdomain { color: #38bdf8; font-weight: bold; }
+.url-domain { color: #94a3b8; }
+
+.store-preview-hero {
+  text-align: center;
+  padding: 16px 8px;
+  background: linear-gradient(180deg, rgba(30, 41, 59, 0.8) 0%, rgba(15, 23, 42, 0.8) 100%);
+  border-radius: 12px;
+  margin-bottom: 12px;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.store-icon { font-size: 2rem; margin-bottom: 4px; }
+.store-title { font-size: 1.05rem; font-weight: 800; color: #f8fafc; }
+.store-tag { font-size: 0.75rem; color: #38bdf8; font-weight: 600; margin-top: 2px; }
+
+.store-items-mini {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.mini-item {
+  background: #1e293b;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  border: 1px solid rgba(255,255,255,0.05);
+}
+
+.mini-img { font-size: 1.4rem; margin-bottom: 2px; }
+.mini-name { font-size: 0.72rem; font-weight: 600; color: #cbd5e1; }
+.mini-price { font-size: 0.75rem; font-weight: 800; color: #34d399; }
+
+.store-wa-btn {
+  background: #25d366;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 0.8rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+/* Card StoreOnline Alert Badge inside Toko Online Card & Daftar Form */
+.storeonline-badge-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+  padding: 8px 12px;
+  background: rgba(14, 165, 233, 0.1);
+  border: 1px solid rgba(14, 165, 233, 0.3);
+  border-radius: 8px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: #0ea5e9;
+  text-decoration: none;
+  transition: all 0.2s ease;
+}
+
+.storeonline-badge-link:hover {
+  background: rgba(14, 165, 233, 0.2);
+  color: #0284c7;
+  transform: translateY(-1px);
+}
+
+.daftar-storeonline-alert {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: linear-gradient(135deg, rgba(14, 165, 233, 0.08), rgba(16, 185, 129, 0.08));
+  border: 1px solid rgba(14, 165, 233, 0.25);
+  border-radius: 12px;
+  padding: 12px 14px;
+  margin-bottom: 20px;
+}
+
+.daftar-storeonline-alert .alert-icon { font-size: 1.4rem; flex-shrink: 0; }
+.daftar-storeonline-alert strong { font-size: 0.85rem; color: var(--text-primary); display: block; margin-bottom: 2px; }
+.daftar-storeonline-alert p { font-size: 0.78rem; color: var(--text-secondary); margin: 0; line-height: 1.35; }
+.daftar-storeonline-alert a { color: #0ea5e9; font-weight: 700; text-decoration: underline; }
+
+/* Responsive adjustments for ekatalog section */
+@media (max-width: 900px) {
+  .ekatalog-card {
+    grid-template-columns: 1fr;
+    padding: 28px 20px;
+    gap: 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ekatalog-banner-section { padding: 40px 0; }
+  .ekatalog-title { font-size: 1.45rem; }
+  .ekatalog-desc { font-size: 0.88rem; }
+  .ekatalog-features { grid-template-columns: 1fr; gap: 8px; }
+  .ekatalog-actions { flex-direction: column; width: 100%; }
+  .ekatalog-actions .btn { width: 100%; justify-content: center; }
+}
