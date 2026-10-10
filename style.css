@@ -1658,8 +1658,6 @@ ul { list-style: none; }
   .unggulan-grid { grid-template-columns: repeat(2, 1fr); }
   .testimonial-grid { grid-template-columns: repeat(2, 1fr); }
   .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
-  .proses-timeline { flex-direction: column; align-items: center; gap: 24px; }
-  .proses-connector { display: none; }
 }
 
 @media (max-width: 900px) {
@@ -1680,6 +1678,64 @@ ul { list-style: none; }
     margin-right: auto;
     text-align: center;
   }
+  
+  /* Mobile 2-Column (Kiri-Kanan) Compact Layout for Cara Kerja */
+  .proses-timeline {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px 12px;
+    align-items: stretch;
+  }
+  .proses-connector { display: none; }
+  .proses-step {
+    background: var(--white);
+    border-radius: var(--radius-md);
+    padding: 16px 12px;
+    border: 1px solid var(--neutral-200);
+    box-shadow: var(--shadow-sm);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;
+    transition: transform var(--transition);
+  }
+  .proses-step:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-md);
+    border-color: var(--primary-light);
+  }
+  .proses-step:last-child {
+    grid-column: 1 / -1;
+    max-width: 90%;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .step-number {
+    font-size: 0.7rem;
+    padding: 3px 8px;
+    margin-bottom: 8px;
+  }
+  .step-icon {
+    width: 44px;
+    height: 44px;
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    box-shadow: var(--shadow-sm);
+  }
+  .step-content h3 {
+    font-size: 0.875rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  .step-content p {
+    font-size: 0.78rem;
+    line-height: 1.45;
+    max-width: 100%;
+    color: var(--neutral-600);
+  }
+
   .demo-panel.active { grid-template-columns: 1fr; }
   .daftar-wrapper { grid-template-columns: 1fr; }
   .kontak-grid { grid-template-columns: 1fr; }
