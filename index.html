@@ -1,0 +1,938 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jasa Website Palugada – Mau Aplikasi / Website Apa Aja, Kita Ada!</title>
+  <meta name="description" content="Jasa pembuatan website dan aplikasi profesional. Company profile, e-commerce, sistem informasi, SIAKAD, dashboard, dan custom sesuai kebutuhan Anda. Hubungi kami sekarang!" />
+  <meta name="keywords" content="jasa website, jasa aplikasi, jasa web, company profile, e-commerce, SIAKAD, sistem informasi, dashboard, palugada" />
+  <meta property="og:title" content="Jasa Website Palugada" />
+  <meta property="og:description" content="Mau aplikasi / website apa aja, kita ada!!" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="container navbar-inner">
+      <a href="#" class="logo" id="logo-link">
+        <div class="logo-icon">
+          <svg width="38" height="38" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="logoGrad" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                <stop offset="0%" stop-color="#0ea5e9"/>
+                <stop offset="100%" stop-color="#10b981"/>
+              </linearGradient>
+            </defs>
+            <!-- Badge container -->
+            <rect width="36" height="36" rx="9" fill="url(#logoGrad)"/>
+            <rect x="0.5" y="0.5" width="35" height="35" rx="8.5" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+            
+            <!-- Elemen Website / Browser Window -->
+            <rect x="4.5" y="7" width="20" height="16" rx="2.5" fill="rgba(255,255,255,0.18)" stroke="#ffffff" stroke-width="1.3"/>
+            <line x1="4.5" y1="11.5" x2="24.5" y2="11.5" stroke="#ffffff" stroke-width="1" stroke-opacity="0.8"/>
+            <circle cx="7" cy="9.25" r="0.8" fill="#ffffff"/>
+            <circle cx="9.5" cy="9.25" r="0.8" fill="#ffffff" fill-opacity="0.8"/>
+            <circle cx="12" cy="9.25" r="0.8" fill="#ffffff" fill-opacity="0.8"/>
+            <!-- Simbol Code </> pada Browser -->
+            <path d="M8 15.5l-1.8 1.5 1.8 1.5" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 14.5l-1.5 4" stroke="#ffffff" stroke-width="1.1" stroke-linecap="round"/>
+            <path d="M14 15.5l1.8 1.5-1.8 1.5" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+            
+            <!-- Elemen Palu (Hammer) Konstruksi Web -->
+            <!-- Gagang Palu -->
+            <path d="M15 28L23.5 19.5" stroke="#ffffff" stroke-width="2.8" stroke-linecap="round"/>
+            <path d="M16 27L18.5 24.5" stroke="#0284c7" stroke-width="1.6" stroke-linecap="round"/>
+            <!-- Kepala Palu -->
+            <g transform="translate(24, 19) rotate(-45)">
+              <rect x="-7" y="-3.5" width="14" height="6" rx="1.5" fill="#ffffff"/>
+              <!-- Sisi pemukul (striking head) -->
+              <path d="M6 -4h2a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-2z" fill="#ffffff"/>
+              <!-- Cakar palu (claw) -->
+              <path d="M-6 -3.5c-2 0 -3.5 1.5 -4.5 3.5c1.5 -0.5 3 -0.5 4.5 -0.5z" fill="#ffffff"/>
+            </g>
+            <!-- Kilauan Bintang / Spark -->
+            <path d="M29 6l0.8 2 2 0.8-2 0.8-0.8 2-0.8-2-2-0.8 2-0.8z" fill="#fef08a"/>
+          </svg>
+        </div>
+        <div class="logo-brand">
+          <div class="logo-headline">
+            <span class="logo-web">WEB</span>
+            <span class="logo-palugada">Palugada</span>
+          </div>
+          <span class="logo-sub">manajemensystem.my.id</span>
+        </div>
+      </a>
+
+      <nav class="nav-links" id="nav-links">
+        <a href="#layanan" class="nav-link" id="nav-layanan">Layanan</a>
+        <a href="#demo" class="nav-link" id="nav-demo">Demo</a>
+        <a href="#proses" class="nav-link" id="nav-proses">Proses</a>
+        <a href="#portofolio" class="nav-link" id="nav-portofolio">Portofolio</a>
+        <a href="#kontak" class="nav-link" id="nav-kontak">Kontak</a>
+      </nav>
+
+      <div class="navbar-cta">
+        <a href="#daftar" class="btn btn-primary" id="cta-daftar-nav">Daftar Sekarang</a>
+        <button class="hamburger" id="hamburger-btn" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobile-menu">
+      <a href="#layanan" class="mobile-link" id="mob-layanan">Layanan</a>
+      <a href="#demo" class="mobile-link" id="mob-demo">Demo</a>
+      <a href="#proses" class="mobile-link" id="mob-proses">Proses</a>
+      <a href="#portofolio" class="mobile-link" id="mob-portofolio">Portofolio</a>
+      <a href="#kontak" class="mobile-link" id="mob-kontak">Kontak</a>
+      <a href="#daftar" class="btn btn-primary btn-full" id="mob-daftar">Daftar Sekarang</a>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="home">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="container hero-inner">
+      <div class="hero-content" id="hero-content">
+        <div class="badge animate-fade-up" id="hero-badge">
+          <span class="badge-dot"></span>
+          🚀 Terpercaya & Berpengalaman
+        </div>
+        <h1 class="hero-title animate-fade-up delay-1" id="hero-title">
+          Jasa Website &amp;<br/>
+          <span class="gradient-text">Aplikasi</span> Profesional
+        </h1>
+        <p class="hero-desc animate-fade-up delay-2" id="hero-desc">
+          <strong>Mau aplikasi / website apa aja, kita ada!!</strong><br/>
+          Company profile, e-commerce, sistem informasi, SIAKAD, dashboard analytics, aplikasi mobile, dan semua kebutuhan digitalmu kami siap kerjakan.
+        </p>
+        <div class="hero-actions animate-fade-up delay-3" id="hero-actions">
+          <a href="#daftar" class="btn btn-primary btn-lg" id="hero-cta-daftar">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+            Mulai Sekarang
+          </a>
+          <a href="#demo" class="btn btn-outline btn-lg" id="hero-cta-demo">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="10,8 16,12 10,16"/></svg>
+            Lihat Demo
+          </a>
+        </div>
+        <div class="hero-stats animate-fade-up delay-4" id="hero-stats">
+          <div class="stat-item">
+            <span class="stat-num" data-target="10">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Proyek Selesai</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num" data-target="95">0</span><span class="stat-plus">%</span>
+            <span class="stat-label">Klien Puas</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-num" data-target="3">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Tahun Pengalaman</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual animate-slide-right" id="hero-visual">
+        <div class="hero-img-wrapper">
+          <img src="hero.jpg" alt="Web & App Development Illustration" class="hero-img" id="hero-illustration"/>
+          <div class="floating-card card-top-left" id="float-card-1">
+            <div class="fc-icon">✅</div>
+            <div class="fc-text">
+              <strong>Proyek Selesai</strong>
+              <span>Tepat Waktu</span>
+            </div>
+          </div>
+          <div class="floating-card card-bottom-right" id="float-card-2">
+            <div class="fc-icon">⚡</div>
+            <div class="fc-text">
+              <strong>Fast Delivery</strong>
+              <span>7–14 Hari Kerja</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" id="scroll-hint">
+      <span>Scroll ke bawah</span>
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== MARQUEE / TRUST BAR ===== -->
+  <div class="trust-bar" id="trust-bar">
+    <div class="marquee-track">
+      <div class="marquee-content">
+        <span>🌐 Website Company Profile</span>
+        <span class="sep">•</span>
+        <span>🛒 E-Commerce</span>
+        <span class="sep">•</span>
+        <span>📊 Dashboard Analytics</span>
+        <span class="sep">•</span>
+        <span>🎓 SIAKAD / Web Kampus</span>
+        <span class="sep">•</span>
+        <span>📱 Aplikasi Mobile</span>
+        <span class="sep">•</span>
+        <span>🏥 Sistem Informasi RS</span>
+        <span class="sep">•</span>
+        <span>🏪 Sistem POS</span>
+        <span class="sep">•</span>
+        <span>📰 Portal Berita</span>
+        <span class="sep">•</span>
+        <span>🔧 Custom App</span>
+        <span class="sep">•</span>
+        <span>🌐 Website Company Profile</span>
+        <span class="sep">•</span>
+        <span>🛒 E-Commerce</span>
+        <span class="sep">•</span>
+        <span>📊 Dashboard Analytics</span>
+        <span class="sep">•</span>
+        <span>🎓 SIAKAD / Web Kampus</span>
+        <span class="sep">•</span>
+        <span>📱 Aplikasi Mobile</span>
+        <span class="sep">•</span>
+        <span>🏥 Sistem Informasi RS</span>
+        <span class="sep">•</span>
+        <span>🏪 Sistem POS</span>
+        <span class="sep">•</span>
+        <span>📰 Portal Berita</span>
+        <span class="sep">•</span>
+        <span>🔧 Custom App</span>
+        <span class="sep">•</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== LAYANAN ===== -->
+  <section class="section layanan" id="layanan">
+    <div class="container">
+      <div class="section-header" id="layanan-header">
+        <div class="section-badge">Layanan Kami</div>
+        <h2 class="section-title">Solusi Digital <span class="gradient-text">Lengkap</span></h2>
+        <p class="section-desc">Dari website sederhana hingga sistem enterprise yang kompleks — semua kami kerjakan dengan standar kualitas tinggi.</p>
+      </div>
+
+      <div class="layanan-grid" id="layanan-grid">
+
+        <div class="layanan-card reveal" id="card-company-profile">
+          <div class="card-icon-wrap" style="--icon-color:#0ea5e9;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <h3>Website Company Profile</h3>
+          <p>Tampilkan identitas bisnis Anda secara profesional dengan desain modern, SEO-friendly, dan responsive di semua perangkat.</p>
+          <ul class="card-features">
+            <li>✓ Desain custom & modern</li>
+            <li>✓ SEO optimized</li>
+            <li>✓ Mobile responsive</li>
+            <li>✓ CMS mudah dikelola</li>
+          </ul>
+          <div class="card-tag">Mulai dari Rp 1.5 Jt</div>
+        </div>
+
+        <div class="layanan-card reveal" id="card-ecommerce">
+          <div class="card-icon-wrap" style="--icon-color:#10b981;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 002 2h14a2 2 0 002-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 01-8 0"/></svg>
+          </div>
+          <h3>Toko Online / E-Commerce</h3>
+          <p>Platform belanja online lengkap dengan manajemen produk, keranjang belanja, payment gateway, dan laporan penjualan.</p>
+          <ul class="card-features">
+            <li>✓ Manajemen produk</li>
+            <li>✓ Payment gateway</li>
+            <li>✓ Laporan penjualan</li>
+            <li>✓ Multi varian produk</li>
+          </ul>
+          <div class="card-tag">Mulai dari Rp 3 Jt</div>
+        </div>
+
+        <div class="layanan-card reveal" id="card-siakad">
+          <div class="card-icon-wrap" style="--icon-color:#8b5cf6;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </div>
+          <h3>SIAKAD / Web Kampus</h3>
+          <p>Sistem informasi akademik terpadu meliputi KRS, KHS, absensi, jadwal kuliah, nilai mahasiswa, dan laporan akademik.</p>
+          <ul class="card-features">
+            <li>✓ Manajemen mahasiswa</li>
+            <li>✓ KRS & KHS online</li>
+            <li>✓ Absensi digital</li>
+            <li>✓ Laporan akademik</li>
+          </ul>
+          <div class="card-tag">Mulai dari Rp 5 Jt</div>
+        </div>
+
+        <div class="layanan-card reveal" id="card-dashboard">
+          <div class="card-icon-wrap" style="--icon-color:#f59e0b;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>
+          </div>
+          <h3>Sistem Informasi &amp; Dashboard</h3>
+          <p>Sistem manajemen data bisnis dengan dashboard analytics interaktif, laporan real-time, dan visualisasi data yang informatif.</p>
+          <ul class="card-features">
+            <li>✓ Dashboard analytics</li>
+            <li>✓ Laporan real-time</li>
+            <li>✓ Multi user & role</li>
+            <li>✓ Export PDF/Excel</li>
+          </ul>
+          <div class="card-tag">Mulai dari Rp 4 Jt</div>
+        </div>
+
+        <div class="layanan-card reveal" id="card-landing">
+          <div class="card-icon-wrap" style="--icon-color:#ef4444;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14,2 14,8 20,8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10,9 9,9 8,9"/></svg>
+          </div>
+          <h3>Landing Page</h3>
+          <p>Halaman promosi yang dirancang untuk mengkonversi pengunjung menjadi pelanggan dengan desain yang menarik dan copywriting yang tepat.</p>
+          <ul class="card-features">
+            <li>✓ High conversion design</li>
+            <li>✓ A/B testing ready</li>
+            <li>✓ Integrasi form</li>
+            <li>✓ Analytics tracking</li>
+          </ul>
+          <div class="card-tag">Mulai dari Rp 800 Rb</div>
+        </div>
+
+        <div class="layanan-card reveal card-custom" id="card-custom">
+          <div class="card-icon-wrap" style="--icon-color:#06b6d4;">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 010 14.14M4.93 4.93a10 10 0 000 14.14"/><path d="M22.54 6.42a17 17 0 010 11.16M1.46 6.42a17 17 0 000 11.16"/></svg>
+          </div>
+          <h3>Custom Application</h3>
+          <p>Punya kebutuhan spesifik? Kami siap membangun aplikasi custom sesuai workflow bisnis Anda dari nol hingga production-ready.</p>
+          <ul class="card-features">
+            <li>✓ Analisis kebutuhan</li>
+            <li>✓ Desain UI/UX</li>
+            <li>✓ Development & testing</li>
+            <li>✓ Support after launch</li>
+          </ul>
+          <div class="card-tag">Harga menyesuaikan</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DEMO ===== -->
+  <section class="section demo-section" id="demo">
+    <div class="container">
+      <div class="section-header" id="demo-header">
+        <div class="section-badge">Demo Preview</div>
+        <h2 class="section-title">Lihat Langsung <span class="gradient-text">Demo-nya</span></h2>
+        <p class="section-desc">Pilih kategori di bawah dan lihat tampilan nyata dari website/aplikasi yang bisa kami buat untuk Anda.</p>
+      </div>
+
+      <div class="demo-tabs" id="demo-tabs">
+        <button class="demo-tab active" data-tab="company" id="tab-company">🌐 Company Profile</button>
+        <button class="demo-tab" data-tab="ecommerce" id="tab-ecommerce">🛒 E-Commerce</button>
+        <button class="demo-tab" data-tab="dashboard" id="tab-dashboard">📊 Dashboard</button>
+        <button class="demo-tab" data-tab="siakad" id="tab-siakad">🎓 SIAKAD</button>
+      </div>
+
+      <div class="demo-content" id="demo-content">
+
+        <!-- Company Profile Demo -->
+        <div class="demo-panel active" id="panel-company">
+          <div class="demo-browser">
+            <div class="browser-header">
+              <div class="browser-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="browser-url">https://company.demo.palugada.id</div>
+            </div>
+            <div class="browser-body demo-company-profile">
+              <div class="demo-nav-bar">
+                <div class="demo-logo-bar">🏢 AmazingCorp</div>
+                <div class="demo-nav-items">
+                  <span>Tentang</span><span>Layanan</span><span>Portofolio</span><span>Kontak</span>
+                  <span class="demo-nav-btn">Hubungi Kami</span>
+                </div>
+              </div>
+              <div class="demo-hero-bar">
+                <div class="demo-hero-text">
+                  <h4>Solusi Bisnis Digital Terbaik</h4>
+                  <p>Kami hadir untuk membawa bisnis Anda ke level berikutnya</p>
+                  <div class="demo-hero-btns">
+                    <span class="demo-btn-primary">Mulai Sekarang</span>
+                    <span class="demo-btn-outline">Pelajari Lebih</span>
+                  </div>
+                </div>
+                <div class="demo-hero-visual">
+                  <div class="demo-mockup">
+                    <div class="d-card"></div>
+                    <div class="d-card"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="demo-services-row">
+                <div class="demo-svc-card"><div class="demo-svc-icon">🎯</div><span>Strategi</span></div>
+                <div class="demo-svc-card"><div class="demo-svc-icon">💡</div><span>Inovasi</span></div>
+                <div class="demo-svc-card"><div class="demo-svc-icon">🚀</div><span>Pertumbuhan</span></div>
+                <div class="demo-svc-card"><div class="demo-svc-icon">🛡️</div><span>Keamanan</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="demo-info">
+            <h3>Website Company Profile</h3>
+            <p>Tampilkan brand Anda secara profesional dengan desain modern, animasi halus, dan struktur informasi yang jelas untuk menarik klien baru.</p>
+            <a href="#daftar" class="btn btn-primary" id="demo-cp-cta">Pesan Sekarang →</a>
+          </div>
+        </div>
+
+        <!-- E-Commerce Demo -->
+        <div class="demo-panel" id="panel-ecommerce">
+          <div class="demo-browser">
+            <div class="browser-header">
+              <div class="browser-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="browser-url">https://toko.demo.palugada.id</div>
+            </div>
+            <div class="browser-body demo-ecommerce">
+              <div class="demo-nav-bar">
+                <div class="demo-logo-bar">🛒 TokoKeren</div>
+                <div class="demo-search-bar"><span>🔍 Cari produk...</span></div>
+                <div class="demo-cart">🛍️ 3</div>
+              </div>
+              <div class="demo-category-row">
+                <span class="demo-cat active">Semua</span>
+                <span class="demo-cat">Elektronik</span>
+                <span class="demo-cat">Fashion</span>
+                <span class="demo-cat">Makanan</span>
+              </div>
+              <div class="demo-products-grid">
+                <div class="demo-product">
+                  <div class="demo-product-img" style="background:linear-gradient(135deg,#e0f2fe,#bae6fd)">📱</div>
+                  <div class="demo-product-info"><strong>Smartphone X</strong><span>Rp 2.500.000</span><span class="demo-stars">⭐⭐⭐⭐⭐</span></div>
+                  <button class="demo-add-cart">+ Keranjang</button>
+                </div>
+                <div class="demo-product">
+                  <div class="demo-product-img" style="background:linear-gradient(135deg,#d1fae5,#a7f3d0)">👟</div>
+                  <div class="demo-product-info"><strong>Sepatu Sport</strong><span>Rp 450.000</span><span class="demo-stars">⭐⭐⭐⭐</span></div>
+                  <button class="demo-add-cart">+ Keranjang</button>
+                </div>
+                <div class="demo-product">
+                  <div class="demo-product-img" style="background:linear-gradient(135deg,#fef3c7,#fde68a)">☕</div>
+                  <div class="demo-product-info"><strong>Kopi Premium</strong><span>Rp 120.000</span><span class="demo-stars">⭐⭐⭐⭐⭐</span></div>
+                  <button class="demo-add-cart">+ Keranjang</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="demo-info">
+            <h3>Toko Online / E-Commerce</h3>
+            <p>Jualan online jadi lebih mudah dengan sistem lengkap: manajemen produk, promo, laporan penjualan, dan integrasi payment gateway populer.</p>
+            <a href="#daftar" class="btn btn-primary" id="demo-ec-cta">Pesan Sekarang →</a>
+          </div>
+        </div>
+
+        <!-- Dashboard Demo -->
+        <div class="demo-panel" id="panel-dashboard">
+          <div class="demo-browser">
+            <div class="browser-header">
+              <div class="browser-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="browser-url">https://dashboard.demo.palugada.id</div>
+            </div>
+            <div class="browser-body demo-dashboard">
+              <div class="dash-sidebar">
+                <div class="dash-logo">📊 SistemKu</div>
+                <nav class="dash-nav">
+                  <a class="dash-nav-item active">🏠 Dashboard</a>
+                  <a class="dash-nav-item">👥 Pengguna</a>
+                  <a class="dash-nav-item">📦 Produk</a>
+                  <a class="dash-nav-item">📈 Laporan</a>
+                  <a class="dash-nav-item">⚙️ Pengaturan</a>
+                </nav>
+              </div>
+              <div class="dash-main">
+                <div class="dash-topbar"><span>Selamat datang, Admin!</span><span class="dash-date">Okt 2026</span></div>
+                <div class="dash-stats">
+                  <div class="dash-stat-card" style="--c:#0ea5e9"><span class="ds-val">1,234</span><span class="ds-label">Total User</span></div>
+                  <div class="dash-stat-card" style="--c:#10b981"><span class="ds-val">Rp 48Jt</span><span class="ds-label">Pendapatan</span></div>
+                  <div class="dash-stat-card" style="--c:#8b5cf6"><span class="ds-val">87%</span><span class="ds-label">Kepuasan</span></div>
+                </div>
+                <div class="dash-chart-area">
+                  <div class="dash-chart-label">📈 Grafik Penjualan</div>
+                  <div class="dash-chart-bars">
+                    <div class="dash-bar" style="height:60%"><span>Jan</span></div>
+                    <div class="dash-bar" style="height:80%"><span>Feb</span></div>
+                    <div class="dash-bar" style="height:55%"><span>Mar</span></div>
+                    <div class="dash-bar" style="height:90%"><span>Apr</span></div>
+                    <div class="dash-bar" style="height:70%"><span>Mei</span></div>
+                    <div class="dash-bar" style="height:95%"><span>Jun</span></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="demo-info">
+            <h3>Sistem Informasi &amp; Dashboard</h3>
+            <p>Kelola data bisnis Anda dengan dashboard yang informatif, laporan otomatis, dan sistem multi-user dengan hak akses berbeda-beda.</p>
+            <a href="#daftar" class="btn btn-primary" id="demo-dash-cta">Pesan Sekarang →</a>
+          </div>
+        </div>
+
+        <!-- SIAKAD Demo -->
+        <div class="demo-panel" id="panel-siakad">
+          <div class="demo-browser">
+            <div class="browser-header">
+              <div class="browser-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+              <div class="browser-url">https://siakad.demo.palugada.id</div>
+            </div>
+            <div class="browser-body demo-siakad">
+              <div class="dash-sidebar">
+                <div class="dash-logo" style="color:#8b5cf6;">🎓 SIAKAD</div>
+                <nav class="dash-nav">
+                  <a class="dash-nav-item active">🏠 Beranda</a>
+                  <a class="dash-nav-item">📝 KRS Online</a>
+                  <a class="dash-nav-item">📋 Nilai / KHS</a>
+                  <a class="dash-nav-item">📅 Jadwal Kuliah</a>
+                  <a class="dash-nav-item">✅ Absensi</a>
+                  <a class="dash-nav-item">🧾 Pembayaran</a>
+                </nav>
+              </div>
+              <div class="dash-main">
+                <div class="dash-topbar" style="background:#f5f3ff;"><span>Halo, Mahasiswa!</span><span class="dash-date">Semester Ganjil 2026</span></div>
+                <div class="dash-stats">
+                  <div class="dash-stat-card" style="--c:#8b5cf6"><span class="ds-val">22</span><span class="ds-label">SKS Diambil</span></div>
+                  <div class="dash-stat-card" style="--c:#10b981"><span class="ds-val">3.78</span><span class="ds-label">IPK</span></div>
+                  <div class="dash-stat-card" style="--c:#f59e0b"><span class="ds-val">92%</span><span class="ds-label">Kehadiran</span></div>
+                </div>
+                <div class="siakad-table-preview">
+                  <div class="siak-row header"><span>Mata Kuliah</span><span>SKS</span><span>Nilai</span></div>
+                  <div class="siak-row"><span>Basis Data Lanjut</span><span>3</span><span class="grade-a">A</span></div>
+                  <div class="siak-row"><span>Pemrograman Web</span><span>3</span><span class="grade-a">A</span></div>
+                  <div class="siak-row"><span>Kecerdasan Buatan</span><span>3</span><span class="grade-b">B+</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="demo-info">
+            <h3>SIAKAD / Sistem Akademik</h3>
+            <p>Sistem informasi akademik lengkap untuk kampus atau sekolah: KRS online, nilai, jadwal, absensi digital, dan laporan akademik terintegrasi.</p>
+            <a href="#daftar" class="btn btn-primary" id="demo-siak-cta">Pesan Sekarang →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROSES KERJA ===== -->
+  <section class="section proses-section" id="proses">
+    <div class="container">
+      <div class="section-header" id="proses-header">
+        <div class="section-badge">Cara Kerja</div>
+        <h2 class="section-title">Proses <span class="gradient-text">Mudah &amp; Transparan</span></h2>
+        <p class="section-desc">Kami memastikan Anda selalu tahu perkembangan proyek dari awal hingga selesai.</p>
+      </div>
+
+      <div class="proses-timeline" id="proses-timeline">
+        <div class="proses-step reveal" id="step-1">
+          <div class="step-number">01</div>
+          <div class="step-content">
+            <div class="step-icon">💬</div>
+            <h3>Konsultasi & Analisis</h3>
+            <p>Ceritakan kebutuhan Anda, kami dengarkan, analisis, dan berikan rekomendasi terbaik yang sesuai budget dan target.</p>
+          </div>
+        </div>
+        <div class="proses-connector"></div>
+        <div class="proses-step reveal" id="step-2">
+          <div class="step-number">02</div>
+          <div class="step-content">
+            <div class="step-icon">🎨</div>
+            <h3>Desain UI/UX</h3>
+            <p>Tim desainer kami membuat mockup tampilan yang menarik, lalu kami presentasikan kepada Anda untuk disetujui.</p>
+          </div>
+        </div>
+        <div class="proses-connector"></div>
+        <div class="proses-step reveal" id="step-3">
+          <div class="step-number">03</div>
+          <div class="step-content">
+            <div class="step-icon">⚙️</div>
+            <h3>Development</h3>
+            <p>Pengembangan dilakukan oleh tim developer berpengalaman dengan teknologi terkini dan standar coding yang baik.</p>
+          </div>
+        </div>
+        <div class="proses-connector"></div>
+        <div class="proses-step reveal" id="step-4">
+          <div class="step-number">04</div>
+          <div class="step-content">
+            <div class="step-icon">🧪</div>
+            <h3>Testing & Revisi</h3>
+            <p>Pengujian menyeluruh di berbagai device dan browser. Anda bebas meminta revisi hingga benar-benar puas.</p>
+          </div>
+        </div>
+        <div class="proses-connector"></div>
+        <div class="proses-step reveal" id="step-5">
+          <div class="step-number">05</div>
+          <div class="step-content">
+            <div class="step-icon">🚀</div>
+            <h3>Launch &amp; Support</h3>
+            <p>Website diluncurkan dan kami berikan dukungan teknis pasca-launch agar bisnis Anda berjalan lancar.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PORTOFOLIO / KEUNGGULAN ===== -->
+  <section class="section unggulan-section" id="portofolio">
+    <div class="container">
+      <div class="section-header" id="unggulan-header">
+        <div class="section-badge">Keunggulan Kami</div>
+        <h2 class="section-title">Kenapa Pilih <span class="gradient-text">Palugada?</span></h2>
+        <p class="section-desc">Bukan sekadar bikin website — kami mitra digital terpercaya yang peduli dengan kesuksesan bisnis Anda.</p>
+      </div>
+
+      <div class="unggulan-grid" id="unggulan-grid">
+        <div class="unggulan-card reveal" id="ung-1">
+          <div class="ung-icon">⚡</div>
+          <h3>Fast Delivery</h3>
+          <p>Pengerjaan tepat waktu sesuai estimasi, tanpa molor dan penundaan yang tidak perlu.</p>
+        </div>
+        <div class="unggulan-card reveal" id="ung-2">
+          <div class="ung-icon">💎</div>
+          <h3>Kualitas Premium</h3>
+          <p>Desain modern, kode bersih, dan performa optimal. Kami tidak mengkompromikan kualitas.</p>
+        </div>
+        <div class="unggulan-card reveal" id="ung-3">
+          <div class="ung-icon">💬</div>
+          <h3>Komunikasi Aktif</h3>
+          <p>Update progress rutin via WhatsApp/email. Anda selalu tahu perkembangan proyek real-time.</p>
+        </div>
+        <div class="unggulan-card reveal" id="ung-4">
+          <div class="ung-icon">🔧</div>
+          <h3>Free Revisi</h3>
+          <p>Kami memberikan kesempatan revisi hingga Anda puas dengan hasilnya tanpa biaya tambahan.</p>
+        </div>
+        <div class="unggulan-card reveal" id="ung-5">
+          <div class="ung-icon">🛡️</div>
+          <h3>Garansi 3 Bulan</h3>
+          <p>Setelah launch, kami berikan garansi bug fix selama 3 bulan penuh tanpa biaya tambahan.</p>
+        </div>
+        <div class="unggulan-card reveal" id="ung-6">
+          <div class="ung-icon">💰</div>
+          <h3>Harga Transparan</h3>
+          <p>Tidak ada biaya tersembunyi. Semua sudah disepakati di awal dengan rincian yang jelas.</p>
+        </div>
+      </div>
+
+      <!-- Testimonial -->
+      <div class="testimonial-section" id="testimonial-section">
+        <h3 class="testimonial-title">Apa Kata Klien Kami</h3>
+        <div class="testimonial-grid" id="testimonial-grid">
+          <div class="testi-card reveal" id="testi-1">
+            <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+            <p>"Sangat puas dan terbantu berkat adanya sistem SIAKAD di sekolah kami. Pengelolaan data kurikulum, nilai, absensi, hingga administrasi guru sekarang jauh lebih terorganisir dan pekerjaan jadi jauh lebih mudah!"</p>
+            <div class="testi-author">
+              <div class="testi-avatar" style="background:linear-gradient(135deg,#0ea5e9,#10b981)">RS</div>
+              <div>
+                <strong>Rekna Sarnis, S.Pd</strong>
+                <span>Kurikulum SMK Tinta Emas Indonesia</span>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card reveal" id="testi-2">
+            <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+            <p>"Website katalog toko listrik digital dari Web Palugada sangat mempermudah pelanggan mencari spesifikasi alat instalasi & ketersediaan stok. Komunikasi pemesanan via WhatsApp jadi rapi dan omzet toko meningkat pesat!"</p>
+            <div class="testi-author">
+              <div class="testi-avatar" style="background:linear-gradient(135deg,#f59e0b,#ef4444)">YI</div>
+              <div>
+                <strong>Yandreza Ifonda</strong>
+                <span>Owner Zona Utama Elektrik</span>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card reveal" id="testi-3">
+            <div class="testi-stars">⭐⭐⭐⭐⭐</div>
+            <p>"Katalog toko digital KanaPC benar-benar solutif! Calon pembeli laptop, PC rakitan, dan aksesoris komputer bisa langsung cek spesifikasi update dan harga transparan dengan mudah. Tampilannya modern dan loading super cepat!"</p>
+            <div class="testi-author">
+              <div class="testi-avatar" style="background:linear-gradient(135deg,#8b5cf6,#0ea5e9)">HH</div>
+              <div>
+                <strong>Halim Hafis</strong>
+                <span>Owner KanaPC (Toko Laptop & Komputer)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DAFTAR / FORM ORDER ===== -->
+  <section class="section daftar-section" id="daftar">
+    <div class="container">
+      <div class="daftar-wrapper" id="daftar-wrapper">
+        <div class="daftar-left" id="daftar-left">
+          <div class="section-badge">Mulai Proyek</div>
+          <h2 class="section-title">Siap <span class="gradient-text">Memulai?</span></h2>
+          <p>Isi formulir di samping atau langsung hubungi kami. Tim kami akan merespons dalam <strong>1x24 jam</strong>.</p>
+          
+          <div class="daftar-perks">
+            <div class="perk-item" id="perk-1">
+              <div class="perk-icon">🆓</div>
+              <div>
+                <strong>Konsultasi Gratis</strong>
+                <span>Ceritakan kebutuhan Anda tanpa biaya</span>
+              </div>
+            </div>
+            <div class="perk-item" id="perk-2">
+              <div class="perk-icon">📋</div>
+              <div>
+                <strong>Estimasi Transparan</strong>
+                <span>Dapat penawaran harga & timeline jelas</span>
+              </div>
+            </div>
+            <div class="perk-item" id="perk-3">
+              <div class="perk-icon">🤝</div>
+              <div>
+                <strong>Tanpa Komitmen Awal</strong>
+                <span>Tidak ada tekanan, keputusan ada di tangan Anda</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-badges" id="contact-badges">
+            <a href="https://wa.me/6282169299119?text=Halo%20tim%20Web%20Palugada!%20%F0%9F%91%8B%0A%0ASaya%20sudah%20melihat%20website%20manajemensystem.my.id%20dan%20ingin%20konsultasi%20mengenai%20pembuatan%20website%20%2F%20aplikasi.%0A%0ABoleh%20minta%20info%20lebih%20lanjut%3F%20Terima%20kasih!%20%F0%9F%99%8F" target="_blank" class="contact-badge wa-badge" id="wa-direct-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+              Chat WhatsApp
+            </a>
+            <a href="mailto:admin@manajemensystem.my.id?subject=Konsultasi%20Pembuatan%20Website%20%2F%20Aplikasi%20-%20Web%20Palugada&body=Halo%20Tim%20Web%20Palugada%20(manajemensystem.my.id)%2C%0A%0ASaya%20sudah%20melihat%20website%20Anda%20dan%20ingin%20berkonsultasi%20mengenai%20pembuatan%20website%20%2F%20aplikasi.%0A%0ABerikut%20data%20singkat%20kebutuhan%20saya%3A%0A%E2%80%A2%20Nama%20Lengkap%3A%20%0A%E2%80%A2%20No.%20WhatsApp%20%2F%20HP%3A%20%0A%E2%80%A2%20Jenis%20Website%20%2F%20Aplikasi%3A%20%0A%E2%80%A2%20Estimasi%20Budget%3A%20%0A%0ACatatan%20%2F%20Kebutuhan%20Khusus%3A%0A%5BTuliskan%20gambaran%20fitur%20atau%20kebutuhan%20website%20yang%20Anda%20inginkan%20di%20sini%5D%0A%0AMohon%20informasi%20lebih%20lanjut%2C%20terima%20kasih." class="contact-badge email-badge" id="email-direct-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+              Email Kami
+            </a>
+          </div>
+        </div>
+
+        <div class="daftar-right" id="daftar-right">
+          <form class="order-form" id="order-form" novalidate>
+            <h3>Form Konsultasi Gratis</h3>
+
+            <div class="form-group" id="fg-name">
+              <label for="inp-name">Nama Lengkap <span class="req">*</span></label>
+              <input type="text" id="inp-name" name="nama" placeholder="Contoh: Budi Santoso" required />
+            </div>
+
+            <div class="form-row">
+              <div class="form-group" id="fg-wa">
+                <label for="inp-wa">No. WhatsApp <span class="req">*</span></label>
+                <input type="tel" id="inp-wa" name="whatsapp" placeholder="08xxxxxxxxxx" required />
+              </div>
+              <div class="form-group" id="fg-email">
+                <label for="inp-email">Email</label>
+                <input type="email" id="inp-email" name="email" placeholder="email@contoh.com" />
+              </div>
+            </div>
+
+            <div class="form-group" id="fg-layanan">
+              <label for="inp-layanan">Jenis Layanan <span class="req">*</span></label>
+              <select id="inp-layanan" name="layanan" required>
+                <option value="">-- Pilih Jenis Layanan --</option>
+                <option value="company-profile">Website Company Profile</option>
+                <option value="ecommerce">Toko Online / E-Commerce</option>
+                <option value="siakad">SIAKAD / Website Kampus</option>
+                <option value="dashboard">Sistem Informasi & Dashboard</option>
+                <option value="landing-page">Landing Page</option>
+                <option value="custom">Custom Application</option>
+                <option value="lainnya">Lainnya / Belum Tahu</option>
+              </select>
+            </div>
+
+            <div class="form-group" id="fg-budget">
+              <label for="inp-budget">Estimasi Budget</label>
+              <select id="inp-budget" name="budget">
+                <option value="">-- Pilih Range Budget --</option>
+                <option value="&lt;1jt">Di bawah Rp 1 Juta</option>
+                <option value="1-3jt">Rp 1–3 Juta</option>
+                <option value="3-5jt">Rp 3–5 Juta</option>
+                <option value="5-10jt">Rp 5–10 Juta</option>
+                <option value="&gt;10jt">Di atas Rp 10 Juta</option>
+              </select>
+            </div>
+
+            <div class="form-group" id="fg-pesan">
+              <label for="inp-pesan">Ceritakan Kebutuhan Anda <span class="req">*</span></label>
+              <textarea id="inp-pesan" name="pesan" rows="4" placeholder="Contoh: Saya butuh website toko online untuk jualan pakaian, perlu fitur keranjang belanja dan payment..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg btn-full" id="submit-form">
+              <span id="submit-text">Kirim Konsultasi Gratis</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22,2 15,22 11,13 2,9"/></svg>
+            </button>
+            <p class="form-privacy">🔒 Data Anda aman & tidak akan dibagikan ke pihak ketiga.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KONTAK ===== -->
+  <section class="section kontak-section" id="kontak">
+    <div class="container">
+      <div class="section-header" id="kontak-header">
+        <div class="section-badge">Hubungi Kami</div>
+        <h2 class="section-title">Kami <span class="gradient-text">Siap Membantu</span></h2>
+        <p class="section-desc">Ada pertanyaan? Tim kami siap menjawab melalui berbagai channel komunikasi.</p>
+      </div>
+
+      <div class="kontak-grid" id="kontak-grid">
+        <a href="https://wa.me/6282169299119?text=Halo%20tim%20Web%20Palugada!%20%F0%9F%91%8B%0A%0ASaya%20sudah%20melihat%20website%20manajemensystem.my.id%20dan%20ingin%20konsultasi%20mengenai%20pembuatan%20website%20%2F%20aplikasi.%0A%0ABoleh%20minta%20info%20lebih%20lanjut%3F%20Terima%20kasih!%20%F0%9F%99%8F" target="_blank" class="kontak-card wa-card" id="kontak-wa">
+          <div class="kontak-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          </div>
+          <h3>WhatsApp</h3>
+          <p>Chat langsung dengan tim kami</p>
+          <span class="kontak-value">0821-6929-9119</span>
+          <span class="kontak-note">Balas cepat & responsif</span>
+        </a>
+
+        <a href="mailto:admin@manajemensystem.my.id?subject=Konsultasi%20Pembuatan%20Website%20%2F%20Aplikasi%20-%20Web%20Palugada&body=Halo%20Tim%20Web%20Palugada%20(manajemensystem.my.id)%2C%0A%0ASaya%20sudah%20melihat%20website%20Anda%20dan%20ingin%20berkonsultasi%20mengenai%20pembuatan%20website%20%2F%20aplikasi.%0A%0ABerikut%20data%20singkat%20kebutuhan%20saya%3A%0A%E2%80%A2%20Nama%20Lengkap%3A%20%0A%E2%80%A2%20No.%20WhatsApp%20%2F%20HP%3A%20%0A%E2%80%A2%20Jenis%20Website%20%2F%20Aplikasi%3A%20%0A%E2%80%A2%20Estimasi%20Budget%3A%20%0A%0ACatatan%20%2F%20Kebutuhan%20Khusus%3A%0A%5BTuliskan%20gambaran%20fitur%20atau%20kebutuhan%20website%20yang%20Anda%20inginkan%20di%20sini%5D%0A%0AMohon%20informasi%20lebih%20lanjut%2C%20terima%20kasih." class="kontak-card email-card" id="kontak-email">
+          <div class="kontak-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+          </div>
+          <h3>Email</h3>
+          <p>Kirim detail kebutuhan Anda</p>
+          <span class="kontak-value">admin@manajemensystem.my.id</span>
+          <span class="kontak-note">Balas dalam 1×24 jam</span>
+        </a>
+
+        <div class="kontak-card info-card" id="kontak-info">
+          <div class="kontak-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+          </div>
+          <h3>Jam Operasional</h3>
+          <p>Kami aktif melayani Anda</p>
+          <span class="kontak-value">Senin – Sabtu</span>
+          <span class="kontak-note">08.00 – 21.00 WIB</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FLOATING WA BUTTON ===== -->
+  <a href="https://wa.me/6282169299119?text=Halo%20tim%20Web%20Palugada!%20%F0%9F%91%8B%0A%0ASaya%20sudah%20melihat%20website%20manajemensystem.my.id%20dan%20ingin%20konsultasi%20mengenai%20pembuatan%20website%20%2F%20aplikasi.%0A%0ABoleh%20minta%20info%20lebih%20lanjut%3F%20Terima%20kasih!%20%F0%9F%99%8F" target="_blank" class="floating-wa" id="floating-wa" aria-label="Chat WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    <span class="floating-wa-label">Chat Sekarang</span>
+  </a>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand" id="footer-brand">
+          <div class="logo" id="footer-logo">
+            <div class="logo-icon">
+              <svg width="38" height="38" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <linearGradient id="logoGrad2" x1="0" y1="0" x2="36" y2="36" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#0ea5e9"/>
+                    <stop offset="100%" stop-color="#10b981"/>
+                  </linearGradient>
+                </defs>
+                <rect width="36" height="36" rx="9" fill="url(#logoGrad2)"/>
+                <rect x="0.5" y="0.5" width="35" height="35" rx="8.5" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+                
+                <!-- Elemen Website / Browser Window -->
+                <rect x="4.5" y="7" width="20" height="16" rx="2.5" fill="rgba(255,255,255,0.18)" stroke="#ffffff" stroke-width="1.3"/>
+                <line x1="4.5" y1="11.5" x2="24.5" y2="11.5" stroke="#ffffff" stroke-width="1" stroke-opacity="0.8"/>
+                <circle cx="7" cy="9.25" r="0.8" fill="#ffffff"/>
+                <circle cx="9.5" cy="9.25" r="0.8" fill="#ffffff" fill-opacity="0.8"/>
+                <circle cx="12" cy="9.25" r="0.8" fill="#ffffff" fill-opacity="0.8"/>
+                <path d="M8 15.5l-1.8 1.5 1.8 1.5" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M12 14.5l-1.5 4" stroke="#ffffff" stroke-width="1.1" stroke-linecap="round"/>
+                <path d="M14 15.5l1.8 1.5-1.8 1.5" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+                
+                <!-- Elemen Palu (Hammer) -->
+                <path d="M15 28L23.5 19.5" stroke="#ffffff" stroke-width="2.8" stroke-linecap="round"/>
+                <path d="M16 27L18.5 24.5" stroke="#0284c7" stroke-width="1.6" stroke-linecap="round"/>
+                <g transform="translate(24, 19) rotate(-45)">
+                  <rect x="-7" y="-3.5" width="14" height="6" rx="1.5" fill="#ffffff"/>
+                  <path d="M6 -4h2a1 1 0 0 1 1 1v4a1 1 0 0 1 -1 1h-2z" fill="#ffffff"/>
+                  <path d="M-6 -3.5c-2 0 -3.5 1.5 -4.5 3.5c1.5 -0.5 3 -0.5 4.5 -0.5z" fill="#ffffff"/>
+                </g>
+                <path d="M29 6l0.8 2 2 0.8-2 0.8-0.8 2-0.8-2-2-0.8 2-0.8z" fill="#fef08a"/>
+              </svg>
+            </div>
+            <div class="logo-brand">
+              <div class="logo-headline">
+                <span class="logo-web">WEB</span>
+                <span class="logo-palugada">Palugada</span>
+              </div>
+              <span class="logo-sub">manajemensystem.my.id</span>
+            </div>
+          </div>
+          <p class="footer-tagline">Mau aplikasi / website apa aja, kita ada!!</p>
+          <div class="footer-socials">
+            <a href="https://wa.me/6282169299119?text=Halo%20tim%20Web%20Palugada!%20%F0%9F%91%8B%0A%0ASaya%20sudah%20melihat%20website%20manajemensystem.my.id%20dan%20ingin%20konsultasi%20mengenai%20pembuatan%20website%20%2F%20aplikasi.%0A%0ABoleh%20minta%20info%20lebih%20lanjut%3F%20Terima%20kasih!%20%F0%9F%99%8F" target="_blank" class="social-link" id="footer-wa" aria-label="WhatsApp">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+            <a href="mailto:admin@manajemensystem.my.id?subject=Konsultasi%20Pembuatan%20Website%20%2F%20Aplikasi%20-%20Web%20Palugada&body=Halo%20Tim%20Web%20Palugada%20(manajemensystem.my.id)%2C%0A%0ASaya%20sudah%20melihat%20website%20Anda%20dan%20ingin%20berkonsultasi%20mengenai%20pembuatan%20website%20%2F%20aplikasi.%0A%0ABerikut%20data%20singkat%20kebutuhan%20saya%3A%0A%E2%80%A2%20Nama%20Lengkap%3A%20%0A%E2%80%A2%20No.%20WhatsApp%20%2F%20HP%3A%20%0A%E2%80%A2%20Jenis%20Website%20%2F%20Aplikasi%3A%20%0A%E2%80%A2%20Estimasi%20Budget%3A%20%0A%0ACatatan%20%2F%20Kebutuhan%20Khusus%3A%0A%5BTuliskan%20gambaran%20fitur%20atau%20kebutuhan%20website%20yang%20Anda%20inginkan%20di%20sini%5D%0A%0AMohon%20informasi%20lebih%20lanjut%2C%20terima%20kasih." class="social-link" id="footer-email" aria-label="Email">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,12 2,6"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-links-group" id="footer-layanan-links">
+          <h4>Layanan</h4>
+          <ul>
+            <li><a href="#layanan">Website Company Profile</a></li>
+            <li><a href="#layanan">Toko Online</a></li>
+            <li><a href="#layanan">SIAKAD</a></li>
+            <li><a href="#layanan">Dashboard & Sistem Informasi</a></li>
+            <li><a href="#layanan">Landing Page</a></li>
+            <li><a href="#layanan">Custom Application</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-group" id="footer-nav-links">
+          <h4>Navigasi</h4>
+          <ul>
+            <li><a href="#home">Beranda</a></li>
+            <li><a href="#demo">Demo</a></li>
+            <li><a href="#proses">Cara Kerja</a></li>
+            <li><a href="#portofolio">Keunggulan</a></li>
+            <li><a href="#daftar">Daftar</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-links-group" id="footer-kontak-info">
+          <h4>Kontak</h4>
+          <ul>
+            <li>📱 <a href="https://wa.me/6282169299119?text=Halo%20tim%20Web%20Palugada!%20%F0%9F%91%8B%0A%0ASaya%20sudah%20melihat%20website%20manajemensystem.my.id%20dan%20ingin%20konsultasi%20mengenai%20pembuatan%20website%20%2F%20aplikasi.%0A%0ABoleh%20minta%20info%20lebih%20lanjut%3F%20Terima%20kasih!%20%F0%9F%99%8F" target="_blank" style="color:inherit;text-decoration:none;">0821-6929-9119</a></li>
+            <li>✉️ <a href="mailto:admin@manajemensystem.my.id?subject=Konsultasi%20Pembuatan%20Website%20%2F%20Aplikasi%20-%20Web%20Palugada&body=Halo%20Tim%20Web%20Palugada%20(manajemensystem.my.id)%2C%0A%0ASaya%20sudah%20melihat%20website%20Anda%20dan%20ingin%20berkonsultasi%20mengenai%20pembuatan%20website%20%2F%20aplikasi.%0A%0ABerikut%20data%20singkat%20kebutuhan%20saya%3A%0A%E2%80%A2%20Nama%20Lengkap%3A%20%0A%E2%80%A2%20No.%20WhatsApp%20%2F%20HP%3A%20%0A%E2%80%A2%20Jenis%20Website%20%2F%20Aplikasi%3A%20%0A%E2%80%A2%20Estimasi%20Budget%3A%20%0A%0ACatatan%20%2F%20Kebutuhan%20Khusus%3A%0A%5BTuliskan%20gambaran%20fitur%20atau%20kebutuhan%20website%20yang%20Anda%20inginkan%20di%20sini%5D%0A%0AMohon%20informasi%20lebih%20lanjut%2C%20terima%20kasih." style="color:inherit;text-decoration:none;">admin@manajemensystem.my.id</a></li>
+            <li>⏰ Senin–Sabtu, 08.00–21.00 WIB</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom" id="footer-bottom">
+        <p>© 2026 <strong>Jasa Website Palugada</strong>. All rights reserved.</p>
+        <div class="footer-right-col">
+          <p class="footer-made">Made with ❤️ untuk bisnis Indonesia</p>
+          <p class="footer-powered">Powered by <a href="https://manajemensystem.my.id" target="_blank" rel="noopener">manajemensystem.my.id</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
