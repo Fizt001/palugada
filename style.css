@@ -1738,9 +1738,8 @@ ul { list-style: none; }
 
   .demo-panel.active { grid-template-columns: 1fr; }
   .daftar-wrapper { grid-template-columns: 1fr; }
-  .kontak-grid { grid-template-columns: 1fr; }
-  .kontak-card { flex-direction: row; text-align: left; }
-  .kontak-icon { margin-bottom: 0; margin-right: 16px; flex-shrink: 0; }
+  .kontak-grid { grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .kontak-value { word-break: break-all; font-size: 0.92rem; }
 }
 
 @media (max-width: 768px) {
@@ -1751,6 +1750,7 @@ ul { list-style: none; }
   .layanan-grid { grid-template-columns: 1fr; }
   .unggulan-grid { grid-template-columns: 1fr 1fr; }
   .testimonial-grid { grid-template-columns: 1fr; }
+  .kontak-grid { grid-template-columns: 1fr; gap: 16px; }
   
   .badge {
     display: flex;
@@ -1877,8 +1877,38 @@ ul { list-style: none; }
     height: 18px;
   }
 
-  .footer-grid { grid-template-columns: 1fr; gap: 24px; }
-  .footer-bottom { flex-direction: column; gap: 8px; text-align: center; }
+  /* Footer Mobile Optimization */
+  .footer { padding-top: 48px; }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 28px 20px;
+  }
+  .footer-brand {
+    grid-column: 1 / -1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .footer-socials { justify-content: center; }
+  .footer-links-group:last-child {
+    grid-column: 1 / -1;
+    text-align: center;
+  }
+  .footer-links-group:last-child ul {
+    align-items: center;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+    align-items: center;
+  }
+  .footer-right-col {
+    align-items: center;
+    text-align: center;
+  }
   .floating-wa-label { display: none; }
   .floating-wa { padding: 14px; border-radius: 50%; }
 }
