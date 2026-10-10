@@ -1765,6 +1765,7 @@ ul { list-style: none; }
 }
 
 @media (max-width: 480px) {
+  .container { padding: 0 16px; }
   .section-title { font-size: 1.6rem; }
   .hero-title { font-size: 1.85rem; }
   
